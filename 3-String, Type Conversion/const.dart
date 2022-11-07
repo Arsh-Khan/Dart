@@ -14,6 +14,6 @@ main()
   print(aConstBool.runtimeType);
   print(aConstString.runtimeType);
 
-  aConstBool = false;
+  // aConstBool = false; --> this gives error cant change value of varaiable
 
 }

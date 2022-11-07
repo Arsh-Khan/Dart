@@ -10,7 +10,8 @@ main()
   print(s3);
   print(s4);
 
-  //Raw String
+  //Raw String 
+  //(if there are special characters it will not be evaluated)
   var s = r'In a raw string, not even \n gets special treatment';
   print(s);
 }
