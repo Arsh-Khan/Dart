@@ -7,10 +7,7 @@ main()
   list.forEach(printF);
 
   //anonymous function
-  list.forEach((items)
-{
-  print(items);
-});
+  list.forEach((items){print(items);});
 
 }
 
